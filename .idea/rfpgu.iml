@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules" isTestSource="false" packagePrefix="Modules\" />
+      <sourceFolder url="file://$MODULE_DIR$/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Core/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Media/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Menu/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Page/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Setting/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Tag/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Translation/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/User/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Modules/Workshop/Tests" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

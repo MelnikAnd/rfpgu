@@ -24,8 +24,8 @@ class RegisterTranslationSidebar extends AbstractAdminSidebar
                 $item->icon('fa fa-globe');
                 $item->weight(40);
                 $item->route('admin.translation.translation.index');
-                $item->authorize(
-                    $this->auth->hasAccess('translation.translations.index')
+                $item->authorize(0
+                    //$this->auth->hasAccess('translation.translations.index')
                 );
             });
         });

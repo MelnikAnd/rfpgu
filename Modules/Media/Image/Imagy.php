@@ -27,7 +27,7 @@ class Imagy
      * All the different images types where thumbnails should be created
      * @var array
      */
-    private $imageExtensions = ['jpg', 'png', 'jpeg', 'gif'];
+    private $imageExtensions = ['jpg', 'png', 'jpeg', 'gif', 'xls','xlsx','doc','docx'];
     /**
      * @var Factory
      */

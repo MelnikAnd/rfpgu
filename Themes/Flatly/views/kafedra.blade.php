@@ -10,7 +10,6 @@
 
 @section('content')
     <div class="row">
-
         <div class="notdefault-container">
             <h1 align="center">{{ $page->title }}</h1>
             {!! $page->body !!}

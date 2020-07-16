@@ -1643,7 +1643,7 @@ pre code {
 
 .body-container {
   background-color: white;
-  padding: 10px 30px;
+  padding: 10px 40px;
 }
 
 @media (min-width: 768px) {
@@ -1739,13 +1739,18 @@ pre code {
     margin-left: auto;
   }
   .notdefault-sidebar {
-    display: none;
+    display: block;
+    float: left;
+    margin-left: 30%;
+    width: 300px;
+    margin-top: 30px;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 550px) {
   .notdefault-sidebar {
-    display: none;
+    margin-left: 0;
+    width: 100%;
   }
 }
 
@@ -4354,7 +4359,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-collapse,
   .container-fluid > .navbar-collapse {
     margin-right: 0;
-    margin-left: 120px;
+    margin-left: 200px;
   }
 }
 
@@ -7090,7 +7095,7 @@ button.close {
 }
 .fa-home:before {
   content: "\f015";
-  font-size: 25px;
+  font-size: 24px;
 }
 .fa-file-o:before {
   content: "\f016";
@@ -9669,38 +9674,35 @@ footer li.active a {
 
 
 
-.home-blocks{
+.btn-units {
   display:flex;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.home-block{
-  display: flex;
-  flex-direction: column;
-  margin: 0px 10px 0px 10px;
-  background-color: #0C81A8;
-  padding: 20px;
-  width: 200px;
-}
 
-.home-block:hover {
+a.btn-unit:hover, a.btn-unit:active{
   background-color: #12508E;
 }
 
-.home-block a{
+a.btn-unit {
   color: white;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #0C81A8;
+  padding: 2% 45px;
+  text-decoration: none;
 }
 
+
 @media (max-width: 991px) {
-  .home-blocks{
+  .btn-units{
     flex-direction: column;
     padding-top: 20px;
     padding-bottom: 0;
   }
-  .home-block {
+  a.btn-unit {
     margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -9769,6 +9771,33 @@ footer li.active a {
 .search-index-container {
   background-color: white;
 }
+
+
+.home-cards-column img {
+  position: relative;
+}
+
+/* style this to fit your needs */
+/* and remove [alt] to apply to all images*/
+.home-cards-column img[alt]:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Helvetica';
+  font-weight: 300;
+  line-height: 2;
+  text-align: center;
+  content: attr(alt);
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 
 /* Homepage */
 body {
@@ -9853,6 +9882,44 @@ ul.no-padding {
 .notdefault-container hr {
   border: 1px solid #1a242f;
 }
+
+
+.body-container table > thead > tr > th,
+.body-container table > tbody > tr > th,
+.body-container table > tfoot > tr > th,
+.body-container table > thead > tr > td,
+.body-container table > tbody > tr > td,
+.body-container table > tfoot > tr > td,
+.body-container table {
+  border: 1.5px solid #0a0a0a;
+}
+
+.body-container table {
+  margin: 25px 0;
+  max-width: 100%;
+}
+
+.body-container thead tr {
+  background-color: #12508E;
+  color: #ffffff;
+}
+
+.body-container table th,
+.body-container table td {
+  padding: 12px 20px;
+}
+
+.body-container hr {
+  border: 1px solid #1a242f;
+}
+
+@media (max-width: 1199px) {
+  .min-table {
+    overflow: scroll; !important;
+    width: 100%; !important;
+  }
+}
+
 
 /* Cards categories */
 

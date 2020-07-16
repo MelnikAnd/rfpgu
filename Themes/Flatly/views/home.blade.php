@@ -26,7 +26,7 @@
                                 <div class="card mb-4">
                                     <div class="card-body">
                                         <h3 class="card-title"><a href="{{$post->url}}">{{$post->title}}</a></h3>
-                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg')
+                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg'||$post->mainimage->path=='http://new.rfpgu.ru/assets/media/service/default.jpg')
                                         @else
                                             <div class="bgimg">
                                                 <a href="{{$post->url}}"><img class="image img-responsive" src="{{url($post->mainimage->path)}}" alt="{{$post->title}}"/></a>
@@ -55,7 +55,7 @@
                                 <div class="card mb-4">
                                     <div class="card-body">
                                         <h3 class="card-title"><a href="{{$post->url}}">{{$post->title}}</a></h3>
-                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg')
+                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg'||$post->mainimage->path=='http://new.rfpgu.ru/assets/media/service/default.jpg')
                                         @else
                                             <div class="bgimg">
                                                 <a href="{{$post->url}}"><img class="image img-responsive" src="{{url($post->mainimage->path)}}" alt="{{$post->title}}"/></a>
@@ -84,7 +84,7 @@
                                 <div class="card mb-4">
                                     <div class="card-body">
                                         <h3 class="card-title"><a href="{{$post->url}}">{{$post->title}}</a></h3>
-                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg')
+                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg'||$post->mainimage->path=='http://new.rfpgu.ru/assets/media/service/default.jpg')
                                         @else
                                             <div class="bgimg">
                                                 <a href="{{$post->url}}"><img class="image img-responsive" src="{{url($post->mainimage->path)}}" alt="{{$post->title}}"/></a>
@@ -106,22 +106,12 @@
                     @endif
                 </div>
             </div>
-            <div class="home-blocks">
-                <div class="home-block">
-                    <a>Абитуриентам</a>
-                </div>
-                <div class="home-block">
-                    <a>Студентам</a>
-                </div>
-                <div class="home-block">
-                    <a>Преподавателям</a>
-                </div>
-                <div class="home-block">
-                    <a>Кафедры</a>
-                </div>
-                <div class="home-block">
-                    <a>Библиотека</a>
-                </div>
+            <div class="btn-units">
+                <a href="/abitur" class="btn-unit">Абитуриентам</a>
+                <a href="/" class="btn-unit">Студентам</a>
+                <a href="/" class="btn-unit">Преподавателям</a>
+                <a href="/kafedra_iipi" class="btn-unit">Кафедры</a>
+                <a href="http://bibl.rfpgu.ru/" class="btn-unit">Библиотека</a>
             </div>
         </div>
     </div>

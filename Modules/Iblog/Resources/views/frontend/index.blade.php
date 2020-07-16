@@ -24,7 +24,7 @@
                                 <div class="card mb-4">
                                     <div class="card-body-category">
                                         <h2 class="card-title"><a href="{{$post->url}}">{{$post->title}}</a></h2>
-                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg')
+                                        @if($post->mainimage->path=='http://rfpgu.test/assets/media/service/default.jpg'||$post->mainimage->path=='http://rfpgu.ru/assets/media/service/default.jpg'||$post->mainimage->path=='http://new.rfpgu.ru/assets/media/service/default.jpg')
                                         @else
                                             <a href="{{$post->url}}"><img class="card-img-top"
                                                  src="{{--str_replace('.jpg','_mediumThumb.jpg',$post->mainimage->path)--}}{{$post->mainimage->path}}"

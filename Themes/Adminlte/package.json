@@ -21,7 +21,7 @@
     "datatables.net-bs": "^1.10.16",
     "element-ui": "^1.4.6",
     "font-awesome": "^4.7.0",
-    "form-backend-validation": "^2.0.1",
+    "form-backend-validation": "^2.4.0",
     "gridstack": ">=0.2.2",
     "icheck": "^1.0.2",
     "less": "^2.7.2",

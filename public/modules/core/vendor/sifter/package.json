@@ -28,7 +28,7 @@
   "dependencies": {
     "optimist": "0.6.x",
     "cardinal": "0.4.x",
-    "async": "0.2.x",
+    "async": "3.2.2",
     "humanize": "0.0.x",
     "node-csv": "https://github.com/voodootikigod/node-csv/tarball/master"
   },

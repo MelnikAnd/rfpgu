@@ -43,7 +43,7 @@
         "barryvdh/laravel-debugbar": "~3.0",
         "orchestra/testbench": "^3.5",
         "league/flysystem-aws-s3-v3": "^1.0",
-        "league/commonmark": "^0.15.4",
+        "league/commonmark": "^0.18.3",
         "predis/predis": "^1.1",
         "laravel/homestead": "^10.8"
     },

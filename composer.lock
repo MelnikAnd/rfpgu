@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffc887cf646ad15a79d2d43f36f3ed0a",
+    "content-hash": "b4c3576dc0355a0106f9ea03876455b9",
     "packages": [
         {
             "name": "cartalyst/sentinel",
@@ -1069,8 +1069,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "FloatingPoint\\Stylist\\": "src/Stylist",
-                    "Tests\\": "tests"
+                    "Tests\\": "tests",
+                    "FloatingPoint\\Stylist\\": "src/Stylist"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1123,12 +1123,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1683,8 +1683,8 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Modules\\User\\": ".",
-                    "Modules\\": "Modules/"
+                    "Modules\\": "Modules/",
+                    "Modules\\User\\": "."
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1761,12 +1761,12 @@
             "version": "4.0.27",
             "source": {
                 "type": "git",
-                "url": "https://github.com/imagina/asgardcms-iblog.git",
+                "url": "https://github.com/imagina/imaginacms-iblog.git",
                 "reference": "a67b79a8ed46df22a504b4958b2b80fdca392988"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imagina/asgardcms-iblog/zipball/a67b79a8ed46df22a504b4958b2b80fdca392988",
+                "url": "https://api.github.com/repos/imagina/imaginacms-iblog/zipball/a67b79a8ed46df22a504b4958b2b80fdca392988",
                 "reference": "a67b79a8ed46df22a504b4958b2b80fdca392988",
                 "shasum": ""
             },
@@ -1808,12 +1808,12 @@
             "version": "3.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/imagina/asgardcms-ihelpers.git",
+                "url": "https://github.com/imagina/imaginacms-ihelpers.git",
                 "reference": "bf189ae369b0e8d416e8356e0904a85d191f86ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imagina/asgardcms-ihelpers/zipball/bf189ae369b0e8d416e8356e0904a85d191f86ad",
+                "url": "https://api.github.com/repos/imagina/imaginacms-ihelpers/zipball/bf189ae369b0e8d416e8356e0904a85d191f86ad",
                 "reference": "bf189ae369b0e8d416e8356e0904a85d191f86ad",
                 "shasum": ""
             },
@@ -1855,12 +1855,12 @@
             "version": "3.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/imagina/asgardcms-isearch.git",
+                "url": "https://github.com/imagina/imaginacms-isearch.git",
                 "reference": "31d6a70aa45b5c90a451414e13104e9c3e589d74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imagina/asgardcms-isearch/zipball/31d6a70aa45b5c90a451414e13104e9c3e589d74",
+                "url": "https://api.github.com/repos/imagina/imaginacms-isearch/zipball/31d6a70aa45b5c90a451414e13104e9c3e589d74",
                 "reference": "31d6a70aa45b5c90a451414e13104e9c3e589d74",
                 "shasum": ""
             },
@@ -1900,12 +1900,12 @@
             "version": "3.5.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/imagina/slider-module.git",
+                "url": "https://github.com/imagina/imaginacms-slider.git",
                 "reference": "9336f40861bfec682c5f1762284018046b6c182d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/imagina/slider-module/zipball/9336f40861bfec682c5f1762284018046b6c182d",
+                "url": "https://api.github.com/repos/imagina/imaginacms-slider/zipball/9336f40861bfec682c5f1762284018046b6c182d",
                 "reference": "9336f40861bfec682c5f1762284018046b6c182d",
                 "shasum": ""
             },
@@ -2443,12 +2443,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Collective\\Html\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -2704,10 +2704,10 @@
                 }
             },
             "autoload": {
-                "classmap": [],
                 "psr-0": {
                     "Mcamara\\LaravelLocalization": "src/"
-                }
+                },
+                "classmap": []
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3092,12 +3092,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Nwidart\\Modules\\": "src"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Nwidart\\Modules\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3526,12 +3526,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Ramsey\\Uuid\\": "src/"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Ramsey\\Uuid\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3558,6 +3558,16 @@
                 "guid",
                 "identifier",
                 "uuid"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/ramsey",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/ramsey/uuid",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-02-21T04:36:14+00:00"
         },
@@ -3680,6 +3690,7 @@
                 "mail",
                 "mailer"
             ],
+            "abandoned": "symfony/mailer",
             "time": "2019-11-12T09:31:26+00:00"
         },
         {
@@ -3889,6 +3900,7 @@
                     "type": "tidelift"
                 }
             ],
+            "abandoned": "symfony/error-handler",
             "time": "2020-05-22T18:25:20+00:00"
         },
         {
@@ -4295,12 +4307,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4367,12 +4379,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Iconv\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Iconv\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4442,12 +4454,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4516,12 +4528,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4587,12 +4599,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php56\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php56\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4657,12 +4669,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php70\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -4729,12 +4741,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5287,12 +5299,12 @@
             "version": "0.9.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tightenco/ziggy.git",
+                "url": "https://github.com/tighten/ziggy.git",
                 "reference": "82ea6ec6cb6ab3545b0245310b2a424316fe48d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tightenco/ziggy/zipball/82ea6ec6cb6ab3545b0245310b2a424316fe48d8",
+                "url": "https://api.github.com/repos/tighten/ziggy/zipball/82ea6ec6cb6ab3545b0245310b2a424316fe48d8",
                 "reference": "82ea6ec6cb6ab3545b0245310b2a424316fe48d8",
                 "shasum": ""
             },
@@ -5465,12 +5477,12 @@
                 }
             },
             "autoload": {
-                "classmap": [
-                    "src/migrations"
-                ],
                 "psr-0": {
                     "Venturecraft\\Revisionable": "src/"
-                }
+                },
+                "classmap": [
+                    "src/migrations"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5612,12 +5624,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Yajra\\DataTables\\": "src/"
-                },
                 "files": [
                     "src/helper.php"
-                ]
+                ],
+                "psr-4": {
+                    "Yajra\\DataTables\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5693,12 +5705,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Aws\\": "src/"
-                },
                 "files": [
                     "src/functions.php"
-                ]
+                ],
+                "psr-4": {
+                    "Aws\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5765,12 +5777,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Barryvdh\\Debugbar\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Barryvdh\\Debugbar\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5977,6 +5989,7 @@
                 "faker",
                 "fixtures"
             ],
+            "abandoned": true,
             "time": "2019-12-12T13:22:17+00:00"
         },
         {
@@ -6015,12 +6028,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6073,12 +6086,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6125,11 +6138,11 @@
             },
             "type": "library",
             "autoload": {
-                "classmap": [
-                    "hamcrest"
-                ],
                 "files": [
                     "hamcrest/Hamcrest.php"
+                ],
+                "classmap": [
+                    "hamcrest"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6189,34 +6202,34 @@
         },
         {
             "name": "league/commonmark",
-            "version": "0.15.7",
+            "version": "0.18.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "36d82f166e441dfa28643f8d01dd8bdd3a579adf"
+                "reference": "b1ec41ce15c3bd6f7cbe86a645b3efc78d927446"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/36d82f166e441dfa28643f8d01dd8bdd3a579adf",
-                "reference": "36d82f166e441dfa28643f8d01dd8bdd3a579adf",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/b1ec41ce15c3bd6f7cbe86a645b3efc78d927446",
+                "reference": "b1ec41ce15c3bd6f7cbe86a645b3efc78d927446",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": ">=5.4.8"
+                "php": ">=5.6.5"
             },
             "replace": {
                 "colinodell/commonmark-php": "*"
             },
             "require-dev": {
                 "cebe/markdown": "~1.0",
+                "commonmark/commonmark.js": "0.28",
                 "erusev/parsedown": "~1.0",
-                "jgm/commonmark": "0.28",
                 "michelf/php-markdown": "~1.4",
-                "mikehaertl/php-shellcommand": "~1.2.0",
-                "phpunit/phpunit": "~4.3|~5.0",
-                "scrutinizer/ocular": "~1.1",
-                "symfony/finder": "~2.3|~3.0"
+                "mikehaertl/php-shellcommand": "^1.2",
+                "phpunit/phpunit": "^5.7.27|^6.5.14",
+                "scrutinizer/ocular": "^1.1",
+                "symfony/finder": "^3.0|^4.0"
             },
             "suggest": {
                 "league/commonmark-extras": "Library of useful extensions including smart punctuation"
@@ -6227,7 +6240,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.16-dev"
+                    "dev-master": "0.19-dev"
                 }
             },
             "autoload": {
@@ -6247,14 +6260,14 @@
                     "role": "Lead Developer"
                 }
             ],
-            "description": "Markdown parser for PHP based on the CommonMark spec",
+            "description": "PHP Markdown parser based on the CommonMark spec",
             "homepage": "https://github.com/thephpleague/commonmark",
             "keywords": [
                 "commonmark",
                 "markdown",
                 "parser"
             ],
-            "time": "2017-10-26T15:41:07+00:00"
+            "time": "2019-03-21T22:47:25+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
@@ -6461,12 +6474,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "JmesPath\\": "src/"
-                },
                 "files": [
                     "src/JmesPath.php"
-                ]
+                ],
+                "psr-4": {
+                    "JmesPath\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6513,12 +6526,12 @@
             },
             "type": "library",
             "autoload": {
-                "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
-                },
                 "files": [
                     "src/DeepCopy/deep_copy.php"
-                ]
+                ],
+                "psr-4": {
+                    "DeepCopy\\": "src/DeepCopy/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -7226,6 +7239,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2017-11-27T05:48:46+00:00"
         },
         {
@@ -7377,12 +7391,12 @@
             "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
@@ -7419,6 +7433,16 @@
                 "nosql",
                 "predis",
                 "redis"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tillkruss",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tillkruss",
+                    "type": "github"
+                }
             ],
             "time": "2016-06-16T16:22:20+00:00"
         },
@@ -8082,12 +8106,12 @@
             "version": "1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/9dc4f203e36f2b486149058bade43c851dd97451",
                 "reference": "9dc4f203e36f2b486149058bade43c851dd97451",
                 "shasum": ""
             },

@@ -25,7 +25,7 @@
     "gridstack": ">=0.2.2",
     "icheck": "^1.0.2",
     "less": "^2.7.2",
-    "less-loader": "^4.0.5",
+    "less-loader": "^6.0.0",
     "moment": "^2.19.1",
     "simplemde": "~1.9.0",
     "vue-data-tables": "^2.1.0",

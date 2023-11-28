@@ -24,7 +24,7 @@
     "form-backend-validation": "^2.0.1",
     "gridstack": ">=0.2.2",
     "icheck": "^1.0.2",
-    "less": "^2.7.2",
+    "less": "^3.12.0",
     "less-loader": "^4.0.5",
     "moment": "^2.19.1",
     "simplemde": "~1.9.0",
@@ -33,7 +33,7 @@
     "vue-i18n": "^7.3.1",
     "vue-router": "^2.8.0",
     "vue-shortkey": "^2.2.2",
-    "vue-simplemde": "^0.4.4",
+    "vue-simplemde": "^0.5.0",
     "webpack-shell-plugin": "^0.5.0"
   },
   "devDependencies": {
